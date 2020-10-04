@@ -1,6 +1,7 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
+    background:#25282E;
   }
   
   ol, ul {
@@ -42,10 +43,49 @@ body {
   
   .game {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   
   .game-info {
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:white;
+  }
+
+  .game-info  li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .game-info ol {
+    padding-left:50px;
+    padding-right: 50px;
+  }
+  .game-info button {
+    width:150px;
+    border:  2px solid #6342FF;
+    border-radius: 2px;
+    background: #1F2328;
+    color:white;
+    font-size: 1rem;
+    padding:5px;
   }
   
+  .game-board {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    margin-bottom: 50px;
+    border-radius: 2px;
+    border: solid #FE7B63;
+    border-width: 2px 2px 1px 1px;
+  }
+
+  .square {
+    width:100px;
+    height:100px;
+    font-size: 3rem;
+    background:#1F2328;
+    border-color: #FE7B63;
+    color:white;
+  }
